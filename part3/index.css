@@ -1,0 +1,37 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.bg{
+    background-image: url("ramen.jpg");
+    height: 1200px;
+    width: 100%;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+.cover{
+    flex: 1;
+    margin-left: 60%;
+    margin-top: 5%;
+    border-color: cornflowerblue;
+    border-width: 10px;
+    border-radius: 25px;
+    height: 300px;
+    width: 700px;
+    background-color: #e6ecf0;
+
+}
+
+.cover-text{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "American Typewriter";
+    color: cornflowerblue;
+    margin-left: 50px;
+}

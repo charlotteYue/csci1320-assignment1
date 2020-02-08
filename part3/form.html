@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+            integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="color: #4AB3F4; font-weight: bold">NOODLE HOUSE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="noodles.png" width="35px" height="35px">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="review.html">Review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="font-weight: bold; color: black">Review Request<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="form-custom">
+    <div class="container">
+        <div class="review-title">
+            <p style="font-size: 50px; font-weight: bold; color: dodgerblue">Review Form</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput2">Username</label>
+                <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="@username">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Food Rating</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Excellent</option>
+                    <option>Great</option>
+                    <option>Good</option>
+                    <option>Normal</option>
+                    <option>Bad</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Service Rating</label>
+                <select class="form-control" id="exampleFormControlSelect2">
+                    <option>Excellent</option>
+                    <option>Great</option>
+                    <option>Good</option>
+                    <option>Normal</option>
+                    <option>Bad</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Value Rating</label>
+                <select class="form-control" id="exampleFormControlSelect3">
+                    <option>Excellent</option>
+                    <option>Great</option>
+                    <option>Good</option>
+                    <option>Normal</option>
+                    <option>Bad</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Atmosphere Rating</label>
+                <select class="form-control" id="exampleFormControlSelect4">
+                    <option>Excellent</option>
+                    <option>Great</option>
+                    <option>Good</option>
+                    <option>Normal</option>
+                    <option>Bad</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">Overall Rating Stars</label>
+                <select class="form-control" id="exampleFormControlSelect5">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Your review</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="container1">
+        <button class="submit-button" type="button">Submit!</button>
+    </div>
+</div>
+</body>
+</html>

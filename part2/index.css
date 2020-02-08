@@ -6,3 +6,241 @@ body {
 }
 
 /* TODO: Create CSS for your Twitter Mockup */
+.header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 46px;
+  z-index: 100;
+}
+
+.left{
+  display: flex;
+  flex: 1;
+}
+
+.right{
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+  margin-right: 40px;
+}
+
+.nav{
+  color: gray;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 46px;
+  margin-left: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 23px;
+}
+
+a.nav:hover{
+  color: #4AB3F4;
+  text-decoration: underline;
+}
+
+.tweet-button{
+  background-color: #4AB3F4;
+  color: white;
+  border-radius: 25px;
+  width: 70px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.tweet-button:hover{
+  color: lightgray;
+  text-decoration: underline;
+}
+
+.wrapper{
+  max-width: 1190px;
+  margin: 56px auto;
+  display: flex;
+}
+
+.content-left{
+  display: flex;
+  width: 290px;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+.cover{
+  position: absolute;
+  height: 95px;
+  width: 290px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+  align-items: center;
+  background-color: black;
+}
+
+.picture-text{
+  margin-left: 100px;
+  margin-top: 55px;
+  line-height: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.picture{
+  position: absolute;
+  height: 95px;
+  width: 290px;
+  margin-top: 50px;
+  z-index: 1;
+  background-color: white;
+}
+.penguin{
+  position: absolute;
+  margin-left: 15px;
+  border-radius: 50%;
+  margin-top: 70px;
+  border-image-width: 5%;
+  z-index: 50;
+  background-color: gray;
+  border: solid white;
+}
+
+.status{
+  position: absolute;
+  height: 95px;
+  width: 290px;
+  margin-top: 120px;
+  z-index:0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+}
+
+.status-text{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 0.5;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.content-center{
+  flex: 1;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.center-box{
+  border-bottom: 1px solid #e6ecf0;
+  min-height: 51px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.center-penguin{
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border-image-width: 5%;
+  border-color: #e6ecf0;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.center-text{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  flex-direction: column;
+  flex: 1;
+  margin: 5px;
+}
+
+.center-text-content{
+  white-space: normal;
+  margin: 5px;
+}
+
+.content-right{
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content-right{
+    width: 290px;
+    height: 230px;
+    background-color: white;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-right-box{
+    width: 270px;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 5px;
+
+  }
+
+  .content-right-line1{
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .content-right-content{
+    border-bottom: 1px solid #e6ecf0;
+    min-height: 51px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .right-penguin{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border-color: #e6ecf0;
+    margin-left: 10px;
+  }
+
+  .content-right-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  .content-right-font{
+    font-size: 12px;
+    line-height: 0.5;
+  }
+
+  .content-right-button{
+    background-color: white;
+    color: #4AB3F4;
+    border-radius: 20px;
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bolder;
+    border-color: #4AB3F4;
+    margin-left: 10px;
+    border-width: 2px;
+  }
+
+}

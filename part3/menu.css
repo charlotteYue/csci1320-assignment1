@@ -1,0 +1,18 @@
+.table-frame {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-title {
+    font-size: 50px;
+}
+
+.table-custom {
+    max-width: 75%;
+    flex: 1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
